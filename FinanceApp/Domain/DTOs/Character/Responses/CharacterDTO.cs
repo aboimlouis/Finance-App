@@ -1,4 +1,4 @@
-﻿namespace LearningApp.Domain.DTOs.Character.Responses
+﻿namespace FinanceApp.Domain.DTOs.Character.Responses
 {
     public class CharacterDTO
     {

@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "LearningApp": {
+    "FinanceApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

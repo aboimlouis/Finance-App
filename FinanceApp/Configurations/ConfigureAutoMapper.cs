@@ -1,7 +1,7 @@
-﻿using LearningApp.Domain.Profiles.Character;
+﻿using FinanceApp.Domain.Profiles.Character;
 using System.Reflection;
 
-namespace LearningApp.Configurations
+namespace FinanceApp.Configurations
 {
     public static class ConfigureAutoMapper
     {

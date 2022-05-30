@@ -1,6 +1,6 @@
-﻿using LearningApp.Domain.Models;
+﻿using FinanceApp.Domain.Models;
 
-namespace LearningApp.Data.Repositories.Interfaces
+namespace FinanceApp.Data.Repositories.Interfaces
 {
     public interface IUserRepository
     {

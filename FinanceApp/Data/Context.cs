@@ -1,7 +1,7 @@
-﻿using LearningApp.Domain.Models;
+﻿using FinanceApp.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LearningApp.Data
+namespace FinanceApp.Data
 {
     public class Context : DbContext
     {

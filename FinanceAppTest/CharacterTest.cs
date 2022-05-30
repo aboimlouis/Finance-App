@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LearningAppTest
+namespace FinanceAppTest
 {
     [TestClass]
     public class CharacterTest

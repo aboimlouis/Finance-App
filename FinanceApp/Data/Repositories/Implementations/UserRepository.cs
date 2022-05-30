@@ -1,9 +1,9 @@
-﻿using LearningApp.Data;
-using LearningApp.Data.Repositories.Interfaces;
-using LearningApp.Domain.Models;
+﻿using FinanceApp.Data;
+using FinanceApp.Data.Repositories.Interfaces;
+using FinanceApp.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LearningApp.Data.Repositories.Implementations
+namespace FinanceApp.Data.Repositories.Implementations
 {
     public class UserRepository : IUserRepository
     {

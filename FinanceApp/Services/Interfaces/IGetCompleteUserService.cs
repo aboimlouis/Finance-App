@@ -1,6 +1,6 @@
-﻿using LearningApp.Domain.DTOs.User.Responses;
+﻿using FinanceApp.Domain.DTOs.User.Responses;
 
-namespace LearningApp.Services.Interfaces
+namespace FinanceApp.Services.Interfaces
 {
     public interface IGetCompleteUserService
     {

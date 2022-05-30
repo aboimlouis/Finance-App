@@ -1,11 +1,11 @@
-﻿using LearningApp.Data;
-using LearningApp.Data.Repositories.Implementations;
-using LearningApp.Data.Repositories.Interfaces;
-using LearningApp.Services.Implementations;
-using LearningApp.Services.Interfaces;
+﻿using FinanceApp.Data;
+using FinanceApp.Data.Repositories.Implementations;
+using FinanceApp.Data.Repositories.Interfaces;
+using FinanceApp.Services.Implementations;
+using FinanceApp.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace LearningApp.Configurations
+namespace FinanceApp.Configurations
 {
     public static class ConfigureDI
     {

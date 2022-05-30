@@ -1,6 +1,6 @@
-﻿using LearningApp.Domain.DTOs.Character.Responses;
+﻿using FinanceApp.Domain.DTOs.Character.Responses;
 
-namespace LearningApp.Domain.DTOs.User.Responses
+namespace FinanceApp.Domain.DTOs.User.Responses
 {
     public class CompleteUserDTO
     {

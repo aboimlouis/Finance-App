@@ -26,6 +26,7 @@
   <ItemGroup>
     <Folder Include="Domain\DTOs\Character\Requests\" />
     <Folder Include="Domain\DTOs\User\Requests\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

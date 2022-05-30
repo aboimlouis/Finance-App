@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using LearningApp.Domain.DTOs.Character.Responses;
-using LearningApp.Domain.Models;
+using FinanceApp.Domain.DTOs.Character.Responses;
+using FinanceApp.Domain.Models;
 
-namespace LearningApp.Domain.Profiles.Character
+namespace FinanceApp.Domain.Profiles.Character
 {
     public class CharacterProfile : Profile
     {

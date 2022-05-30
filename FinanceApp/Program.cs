@@ -1,6 +1,6 @@
-using LearningApp.Configurations;
-using LearningApp.Data;
-using LearningApp.Middlewares;
+using FinanceApp.Configurations;
+using FinanceApp.Data;
+using FinanceApp.Middlewares;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

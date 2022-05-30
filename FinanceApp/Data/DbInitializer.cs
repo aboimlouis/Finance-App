@@ -1,6 +1,6 @@
-﻿using LearningApp.Domain.Models;
+﻿using FinanceApp.Domain.Models;
 
-namespace LearningApp.Data
+namespace FinanceApp.Data
 {
     public class DbInitializer
     {

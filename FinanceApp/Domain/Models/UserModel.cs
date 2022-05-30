@@ -1,4 +1,4 @@
-﻿namespace LearningApp.Domain.Models
+﻿namespace FinanceApp.Domain.Models
 {
     public class UserModel
     {

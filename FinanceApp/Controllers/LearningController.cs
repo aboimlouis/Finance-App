@@ -1,8 +1,8 @@
-using LearningApp.Domain.DTOs.User.Responses;
-using LearningApp.Services.Interfaces;
+using FinanceApp.Domain.DTOs.User.Responses;
+using FinanceApp.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LearningApp.Controllers
+namespace FinanceApp.Controllers
 {
     [ApiController]
     [Route("[controller]")]

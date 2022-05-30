@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using LearningApp.Data.Repositories.Interfaces;
-using LearningApp.Domain.DTOs.User.Responses;
-using LearningApp.Domain.Models;
-using LearningApp.Services.Interfaces;
+using FinanceApp.Data.Repositories.Interfaces;
+using FinanceApp.Domain.DTOs.User.Responses;
+using FinanceApp.Domain.Models;
+using FinanceApp.Services.Interfaces;
 
-namespace LearningApp.Services.Implementations
+namespace FinanceApp.Services.Implementations
 {
     public class GetCompleteUserService : IGetCompleteUserService
     {
