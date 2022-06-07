@@ -10,9 +10,11 @@
             UnitAmount = 1;
             TransactionDate = DateTime.Now;
             DurationEstimativeDate = DateTime.Now;
-            IdTransactionType = 1;
             IdFrequencyType = null;
             CustomFrequencyDays = null;
+
+            Transaction = new ItemTransactionTypeModel();
+            Frequency = new RecurrentItemFrequencyTypeModel();
         }
 
         public long ID { get; set; }
@@ -21,8 +23,10 @@
         public long UnitAmount { get; set; }
         public DateTime TransactionDate { get; set; }
         public DateTime DurationEstimativeDate { get; set; }
-        public int IdTransactionType { get; set; }
         public int? IdFrequencyType { get; set; }
         public int? CustomFrequencyDays { get; set; }
+
+        public ItemTransactionTypeModel Transaction { get; set; }
+        public RecurrentItemFrequencyTypeModel Frequency { get; set; }
     }
 }
