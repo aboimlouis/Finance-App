@@ -12,9 +12,14 @@
             DurationEstimativeDate = DateTime.Now;
             InstalmentAmount = 1;
 
-            Tags = new HashSet<TagModel>();
+            UserId = 0;
+            GroupId = null;
+            TransactionTypeId = 0;
+
+            User = new UserModel();
             Group = new GroupModel();
             TransactionType = new ItemTransactionTypeModel();
+            Tags = new List<TagModel>();
         }
 
         public long ID { get; set; }
@@ -25,8 +30,13 @@
         public DateTime DurationEstimativeDate { get; set; }
         public int InstalmentAmount { get; set; }
 
-        public ICollection<TagModel> Tags { get; set; }
+        public long UserId { get; set; }
+        public long? GroupId { get; set; }
+        public long TransactionTypeId { get; set; }
+
+        public UserModel User { get; set; }
         public GroupModel Group { get; set; }
         public ItemTransactionTypeModel TransactionType { get; set; }
+        public ICollection<TagModel> Tags { get; set; }
     }
 }

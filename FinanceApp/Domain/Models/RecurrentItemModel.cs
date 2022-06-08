@@ -13,7 +13,12 @@
             IdFrequencyType = null;
             CustomFrequencyDays = null;
 
-            Transaction = new ItemTransactionTypeModel();
+            UserId = 0;
+            TransactionTypeId = 0;
+            FrequencyId = 0;
+
+            User = new UserModel();
+            TransactionType = new ItemTransactionTypeModel();
             Frequency = new RecurrentItemFrequencyTypeModel();
         }
 
@@ -26,7 +31,12 @@
         public int? IdFrequencyType { get; set; }
         public int? CustomFrequencyDays { get; set; }
 
-        public ItemTransactionTypeModel Transaction { get; set; }
+        public long UserId { get; set; }
+        public long TransactionTypeId { get; set; }
+        public long FrequencyId { get; set; }
+
+        public UserModel User { get; set; }
+        public ItemTransactionTypeModel TransactionType { get; set; }
         public RecurrentItemFrequencyTypeModel Frequency { get; set; }
     }
 }

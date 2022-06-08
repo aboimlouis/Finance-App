@@ -6,11 +6,17 @@
         {
             ID = 0;
             Name = "";
-            IdUser = 0;
+
+            UserId = 0;
+
+            User = new UserModel();
         }
 
         public long ID { get; set; }
         public string Name { get; set; }
-        public long IdUser { get; set; }
+
+        public long UserId { get; set; }
+
+        public UserModel User { get; set; }
     }
 }
