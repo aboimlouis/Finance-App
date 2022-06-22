@@ -9,7 +9,7 @@
             ValuePerUnit = 0.0;
             UnitAmount = 1;
             TransactionDate = DateTime.Now;
-            DurationEstimativeDate = DateTime.Now;
+            DurationEstimativeDate = null;
             InstalmentAmount = 1;
 
             UserId = 0;
@@ -27,7 +27,7 @@
         public double ValuePerUnit { get; set; }
         public long UnitAmount { get; set; }
         public DateTime TransactionDate { get; set; }
-        public DateTime DurationEstimativeDate { get; set; }
+        public DateTime? DurationEstimativeDate { get; set; }
         public int InstalmentAmount { get; set; }
 
         public long UserId { get; set; }

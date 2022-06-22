@@ -6,12 +6,15 @@
         {
             ID = 0;
             Name = "";
-            ValuePerUnit = 0.0;
+            Value = 0.0;
             UnitAmount = 1;
             TransactionDate = DateTime.Now;
-            DurationEstimativeDate = DateTime.Now;
-            IdFrequencyType = null;
-            CustomFrequencyDays = null;
+            DurationEstimativeDate = null;
+            IdFrequencyType = 1;
+            FrequencyTimeUnits = 1;
+            IsValueSplited = false;
+            FrequencyInstancesAmount = 1;
+            FrequencyInstancesAmountCount = 0;
 
             UserId = 0;
             TransactionTypeId = 0;
@@ -24,12 +27,15 @@
 
         public long ID { get; set; }
         public string Name { get; set; }
-        public double ValuePerUnit { get; set; }
-        public long UnitAmount { get; set; }
-        public DateTime TransactionDate { get; set; }
-        public DateTime DurationEstimativeDate { get; set; }
-        public int? IdFrequencyType { get; set; }
-        public int? CustomFrequencyDays { get; set; }
+        public double Value { get; set; } // Value of the repeatable transaction
+        public long UnitAmount { get; set; } // Amount of items bought
+        public DateTime TransactionDate { get; set; } // Date of the transaction creation
+        public DateTime? DurationEstimativeDate { get; set; } // Item duration of use
+        public bool IsValueSplited { get; set; } // If the value of the product is splitted between the frequency instances
+        public int IdFrequencyType { get; set; } // Id of the frequency, days, months, etc...
+        public int FrequencyTimeUnits { get; set; } // 1 day, 2 months, etc...
+        public int FrequencyInstancesAmount { get; set; } // Number of times the recurrent item triggers
+        public int FrequencyInstancesAmountCount { get; set; } // Number of times the recurrent item triggered
 
         public long UserId { get; set; }
         public long TransactionTypeId { get; set; }
