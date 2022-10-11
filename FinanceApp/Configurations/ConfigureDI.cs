@@ -1,6 +1,7 @@
 ﻿using FinanceApp.Data;
 using FinanceApp.Data.Repositories.Implementations;
 using FinanceApp.Data.Repositories.Interfaces;
+using FinanceApp.Services.Group.Implementations;
 using FinanceApp.Services.Group.Interfaces;
 using FinanceApp.Services.Implementations;
 using Microsoft.EntityFrameworkCore;
