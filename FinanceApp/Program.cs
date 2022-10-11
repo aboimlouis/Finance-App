@@ -1,7 +1,6 @@
 using FinanceApp.Configurations;
 using FinanceApp.Data;
 using FinanceApp.Middlewares;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

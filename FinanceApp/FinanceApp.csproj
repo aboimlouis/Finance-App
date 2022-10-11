@@ -24,8 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\DTOs\Tag\Responses\" />
-    <Folder Include="Domain\DTOs\Tag\Requests\" />
     <Folder Include="Domain\DTOs\User\Requests\" />
     <Folder Include="Migrations\" />
   </ItemGroup>

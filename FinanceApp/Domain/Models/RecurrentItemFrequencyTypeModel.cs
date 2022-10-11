@@ -7,7 +7,7 @@
             ID = 0;
             Name = "";
 
-            RecurrentItemModels= new List<RecurrentItemModel>(); 
+            RecurrentItemModels = new List<RecurrentItemModel>();
         }
 
         public long ID { get; set; }

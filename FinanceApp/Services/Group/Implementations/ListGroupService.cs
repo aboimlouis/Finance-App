@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
 using FinanceApp.Data.Repositories.Interfaces;
 using FinanceApp.Domain.DTOs.Group;
-using FinanceApp.Domain.DTOs.User.Responses;
 using FinanceApp.Domain.Models;
 using FinanceApp.Services.Group.Interfaces;
 
-namespace FinanceApp.Services.Implementations
+namespace FinanceApp.Services.Group.Implementations
 {
     public class ListGroupService : IListGroupService
     {

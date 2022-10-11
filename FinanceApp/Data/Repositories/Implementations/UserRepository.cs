@@ -1,5 +1,4 @@
-﻿using FinanceApp.Data;
-using FinanceApp.Data.Repositories.Interfaces;
+﻿using FinanceApp.Data.Repositories.Interfaces;
 using FinanceApp.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 

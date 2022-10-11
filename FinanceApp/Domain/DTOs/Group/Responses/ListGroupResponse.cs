@@ -1,8 +1,8 @@
 ﻿namespace FinanceApp.Domain.DTOs.Group.Responses
 {
-    public class ListGroupResponse
+    public class ListTagResponse
     {
-        public ListGroupResponse()
+        public ListTagResponse()
         {
             Groups = new List<GroupDTO>();
         }

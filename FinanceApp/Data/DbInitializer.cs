@@ -21,17 +21,6 @@ namespace FinanceApp.Data
 
             context.Users.AddRange(users);
             context.SaveChanges();
-
-            var characters = new CharacterModel[]
-            {
-                new CharacterModel{ Name = "Test1", UserID = 1, Level = 0 },
-                new CharacterModel{ Name = "Test2", UserID = 1, Level = 5 },
-                new CharacterModel{ Name = "Test3", UserID = 2, Level = 10 },
-                new CharacterModel{ Name = "Test4", UserID = 3, Level = 10 }
-            };
-
-            context.Charaters.AddRange(characters);
-            context.SaveChanges();
         }
     }
 }

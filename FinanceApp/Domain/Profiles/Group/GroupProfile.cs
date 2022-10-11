@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
 using FinanceApp.Domain.DTOs.Group;
-using FinanceApp.Domain.DTOs.User.Responses;
 using FinanceApp.Domain.Models;
 
-namespace FinanceApp.Domain.Profiles.User
+namespace FinanceApp.Domain.Profiles.Group
 {
     public class GroupProfile : Profile
     {

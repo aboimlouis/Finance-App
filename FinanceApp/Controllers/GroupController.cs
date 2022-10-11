@@ -1,5 +1,4 @@
 using FinanceApp.Domain.DTOs.Group.Requests;
-using FinanceApp.Domain.DTOs.Group.Responses;
 using FinanceApp.Services.Group.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
