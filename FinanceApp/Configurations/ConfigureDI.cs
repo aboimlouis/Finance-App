@@ -1,8 +1,8 @@
 ﻿using FinanceApp.Data;
 using FinanceApp.Data.Repositories.Implementations;
 using FinanceApp.Data.Repositories.Interfaces;
+using FinanceApp.Services.Group.Interfaces;
 using FinanceApp.Services.Implementations;
-using FinanceApp.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinanceApp.Configurations
@@ -16,7 +16,8 @@ namespace FinanceApp.Configurations
 
         public static void AddServiceDI(this IServiceCollection services)
         {
-            services.AddScoped<IGetCompleteUserService, GetCompleteUserService>();
+            services.AddScoped<IListGroupService, ListGroupService>();
+            services.AddScoped<IPostGroupService, PostGroupService>();
         }
 
         public static void AddContextDI(this IServiceCollection services, ConfigurationManager configuration)

@@ -16,7 +16,6 @@ namespace FinanceApp.Data.Repositories.Implementations
         {
             return
                 await _context.Users
-                .Include(l => l.Characters)
                 .OrderBy(l => l.ID)
                 .ToListAsync();
         }

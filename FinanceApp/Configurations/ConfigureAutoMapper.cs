@@ -1,4 +1,4 @@
-﻿using FinanceApp.Domain.Profiles.Character;
+﻿using FinanceApp.Domain.Profiles.User;
 using System.Reflection;
 
 namespace FinanceApp.Configurations
@@ -7,7 +7,7 @@ namespace FinanceApp.Configurations
     {
         public static void ConfigureAutoMapperProfiles(this IServiceCollection services)
         {
-            services.AddAutoMapper(Assembly.GetAssembly(typeof(CharacterProfile)));
+            services.AddAutoMapper(Assembly.GetAssembly(typeof(GroupProfile)));
         }
     }
 }
